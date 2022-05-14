@@ -1,0 +1,90 @@
+body {
+    background-color: #d30d0d;
+    text-align: center;
+    margin: 0px;
+    font: 10pt Arial, Helvetica, sans-serif;
+}
+
+main{
+    /*valores para capa que contendra las demas */
+    width: 70%;
+    margin: 0px auto;
+    text-align: left;
+    background-color: rgb(20, 216, 108);
+    color: #606060;
+    border: 10px solid #c0c0c0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 2px 15px 2px 15px;
+    font-family: "Trebucht MS", Times, serif;
+}
+
+header h2 {
+    font-style: italic;
+    color: darkgray;
+}
+
+.barralateral {
+    width: 20%;
+    padding: 10px;
+    float: left;
+    text-align: justify;
+    background-color: #e8e8e8;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+div.menu {
+    width: 3.3cm;
+    }
+a.menu__a {
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.2em 1em 0.2em 1em;
+}
+a.menu__a:hover, a.menu__a:active {
+    color:blue;
+    background-color: white;
+}
+
+.ppal {
+    padding: 2em;
+    margin-left: 20%;
+    text-align: justify;
+}
+form {
+    border: 1px solid black; 
+    padding: 1em
+}
+fieldset {
+    border-style: none;
+}
+legend {
+    font-size:120%
+}
+label {
+    display:block; 
+    font-weight:bold
+}
+input, textarea {
+    border:1px solid black
+}
+textarea {
+    background:#FFF799
+}
+
+footer {
+    clear: both;
+    background-color: black;
+    color: darkgray;
+    padding: 1px;
+    text-align: center;
+}
+
+footer a{
+    color: darkgray;
+}
